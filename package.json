@@ -1,0 +1,22 @@
+{
+  "name": "survey-form",
+  "version": "1.0.0",
+  "description": "Survey form for FreeCodeCamp.opg challange",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/narziz/Survey-Form.git"
+  },
+  "author": "narziz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/narziz/Survey-Form/issues"
+  },
+  "homepage": "https://github.com/narziz/Survey-Form#readme",
+  "dependencies": {
+    "webpack": "^5.18.0"
+  }
+}
