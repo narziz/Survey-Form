@@ -1,7 +1,6 @@
 const path = require('path');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const CopyPlugin = require('copy-webpack-plugin');
-
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
@@ -31,7 +30,7 @@ module.exports = {
           {
             loader: "file-loader",
             options: {
-              name: "[name].[hash].[ext]",
+              name: "[name].[ext]",
               outputPath: 'img',
               publicPath: './img',
             }

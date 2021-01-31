@@ -5,10 +5,191 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Survey Form</title>
   </head>
-  <body id="body">
-    <div class="">
-      <h1>Welcome Narmin</h1>
-      <img src="./img/bkg-02.png" alt="">
-    </div>
+  <body>
+
+    <main>
+      <div class="container-fluid">
+        <section class="aside-sec">
+          <div class="img-part">
+            <img class="bg-image" src="./img/bkg-02.png" alt="background image">
+          </div>
+        </section>
+
+        <section class="main-sec">
+          <div class="container main-part">
+
+            <div class="title-cont">
+              <h1 class="title">Survey Form</h1>
+              <p class="tagline">Thank you for taking the time to help us improve the platform</p>
+            </div>
+
+            <div class="form-cont">
+              <form class="survey-form" action="" name="survey">
+                <!-- page 1 -->
+                <fieldset id="page-1" class="active fieldset">
+                  <label class="labels" for="name">Name</label>
+                  <input id="name" type="text" name="name" value="" placeholder="Enter your name">
+                  <label class="labels" for="email">Email</label>
+                  <input id="email" type="email" name="email" value="" placeholder="Enter your email">
+                </fieldset>
+
+                <!-- page 2 -->
+                <fieldset id="page-2" class="fieldset">
+                  <label class="labels" for="">Age</label>
+                  <input type="number" name="" value="" placeholder="Enter your age">
+                  <label class="labels" for="gender">Gender</label>
+                  <div id="gender" class="radio-btn-group">
+                    <label class="radio-label" for="male">
+                      <input id="male" type="radio" name="gender" value="Male">
+                      Male
+                    </label>
+                    <label class="radio-label" for="female">
+                      <input id="female" type="radio" name="gender" value="Female">
+                      Female
+                    </label>
+                    <label class="radio-label" for="not-say">
+                      <input id="not-say" type="radio" name="gender" value="Prefer-not-to-say">
+                      Prefer not to say
+                    </label>
+                  </div>
+                </fieldset>
+
+                <!-- page 3 -->
+                <fieldset id="page-3" class="fieldset">
+                  <label class="labels" for="roles">Which option best describes your current role?</label>
+                  <select id="roles" class="" name="roles">
+                    <option value="default" selected disabled>select current role</option>
+                    <option value="student">Student</option>
+                    <option value="fullTimeJob">Full time job</option>
+                    <option value="fullTimeLearner">Full time learner</option>
+                    <option value="notToSay">Prefer not to say</option>
+                    <option value="other">Other</option>
+                  </select>
+                  <label class="labels" for="recomend-group">Would you recommend freeCodeCamp to a friend? </label>
+                  <div id="recomend-group" class="radio-btn-group">
+                    <label class="radio-label" for="definitely">
+                      <input id="definitely" type="radio" name="recomend-group" value="Definitely">
+                      Definitely
+                    </label>
+                    <label class="radio-label" for="maybe">
+                      <input id="maybe" type="radio" name="recomend-group" value="Maybe">
+                      Maybe
+                    </label>
+                    <label class="radio-label" for="not-sure">
+                      <input id="not-sure" type="radio" name="recomend-group" value="Not sure">
+                      Not sure
+                    </label>
+                  </div>
+                </fieldset>
+
+                <!-- page 4 -->
+                <fieldset id="page-4" class="fieldset">
+                  <label class="labels" for="feature">What is your favorite feature of freeCodeCamp?</label>
+                  <select id="feature" class="" name="feature">
+                    <option value="default" selected disabled>select an option</option>
+                    <option value="challenges">Challenges</option>
+                    <option value="projects">Projects</option>
+                    <option value="community">Community</option>
+                    <option value="openSource">Open Source</option>
+                  </select>
+                  <label class="labels" for="rating">Why did you give us this rating?</label>
+                  <div id="rating" class="radio-btn-group">
+                    <label class="radio-label" for="perfect">
+                      <input id="perfect" type="radio" name="rating" value="">
+                      It's perfect
+                    </label>
+                    <label class="radio-label" for="lack-of-feature">
+                      <input id="lack-of-feature" type="radio" name="rating" value="">
+                      Lack of feature
+                    </label>
+                    <label class="radio-label" for="error-bugs">
+                      <input id="error-bugs" type="radio" name="rating" value="">
+                      Errors and bugs
+                    </label>
+                  </div>
+                </fieldset>
+
+                <!-- page 5 -->
+                <fieldset id="page-5" class="fieldset">
+                  <label class="labels" for="checkbox-group">What would you like to see improved? <em>(Check all that apply)</em></label>
+                  <div id="checkbox-group" class="checkbox-btn-group">
+                    <label class="checkbox-label" for="front-projects">
+                      <input id="front-projects" type="checkbox" name="checkbox-group" value="front-end-projects">
+                      Front-end Projects
+                    </label>
+                    <label class="checkbox-label" for="back-projects">
+                      <input id="back-projects" type="checkbox" name="checkbox-group" value="back-end=projects">
+                      Back-end Projects
+                    </label>
+                    <label class="checkbox-label" for="data-visualization">
+                      <input id="data-visualization" type="checkbox" name="checkbox-group" value="Data Visualization">
+                      Data Visualization
+                    </label>
+                    <label class="checkbox-label" for="challenges">
+                      <input id="challenges" type="checkbox" name="checkbox-group" value="Challenges">
+                      Challenges
+                    </label>
+                    <label class="checkbox-label" for="gitter">
+                      <input id="gitter" type="checkbox" name="checkbox-group" value="Gitter help rooms">
+                      Gitter help rooms
+                    </label>
+                    <label class="checkbox-label" for="videos">
+                      <input id="videos" type="checkbox" name="checkbox-group" value="Videos">
+                      Videos
+                    </label>
+                    <label class="checkbox-label" for="meetups">
+                      <input id="meetups" type="checkbox" name="checkbox-group" value="City Meetups">
+                      City Meetups
+                    </label>
+                    <label class="checkbox-label" for="wiki">
+                      <input id="wiki" type="checkbox" name="checkbox-group" value="Wiki">
+                      Wiki
+                    </label>
+                    <label class="checkbox-label" for="forum">
+                      <input id="forum" type="checkbox" name="checkbox-group" value="Forum">
+                      Forum
+                    </label>
+                    <label class="checkbox-label" for="additional">
+                      <input id="additional" type="checkbox" name="checkbox-group" value="Additional Courses">
+                      Additional Courses
+                    </label>
+                  </div>
+                </fieldset>
+
+                <!-- page 6 -->
+                <fieldset id="page-6" class="fieldset">
+                  <label class="labels" for="suggestion">Any comments or suggestions?</label>
+                  <textarea id="suggestion" name="suggestion" rows="8" cols="80" placeholder="Write your comment"></textarea>
+                </fieldset>
+
+
+                <!-- buttons -->
+                <fieldset id="buttons" class="buttons">
+                  <input id="back" type="button" value="Back">
+                  <input id="next" type="button" value="Next">
+                </fieldset>
+              </form>
+            </div>
+
+            <div class="progress-cont">
+              <div class="count">
+                <span>
+                  <span class="current">5</span> of <span class="total">10</span>
+                </span>
+              </div>
+
+              <div class="progress-wrap">
+                <div class="progress-bar">
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </section>
+      </div>
+
+    </main>
+
   </body>
 </html>
