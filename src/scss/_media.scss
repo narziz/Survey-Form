@@ -1,0 +1,51 @@
+@media (max-width: 767px) {
+  .aside-sec{
+    display: none;
+  }
+  .main-sec{
+    width: 100%;
+  }
+  .container{
+    padding: 1rem;
+    height: 95vh;
+  }
+
+  .title-cont{
+    .title{
+      font-size: 1.5rem;
+    }
+    .tagline{
+      font-size: 1rem;
+    }
+  }
+
+  .form-cont{
+    padding: 0;
+    height: 25rem;
+
+    .survey-form{
+      .labels{
+         font-size: 1rem;
+      }
+
+      .fieldset{
+        overflow: auto;
+        // height: 21rem;
+        max-height: 21rem;
+      }
+
+      .checkbox-btn-group{
+        flex-wrap: nowrap;
+        overflow: auto;
+      }
+    }
+
+    .buttons{
+      #next,
+      #back,
+      #submit{
+        width: 40%;
+      }
+    }
+  }
+}
