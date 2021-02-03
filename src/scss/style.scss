@@ -118,9 +118,7 @@ html, body {
     justify-content: start;
   }
 
-  input[type="text"],
-  input[type="number"],
-  input[type="email"],
+  .text-input,
   select{
     padding: 1rem 1rem;
     border: 2px solid $light-gray;
@@ -128,29 +126,21 @@ html, body {
     margin-bottom: 0.5rem;
   }
 
-  input[type="checkbox"],
-  input[type="radio"]{
+  .check-input{
     height: 1.2rem;
     width: 1.2rem;
   }
 
-  input[type="checkbox"],
-  input[type="radio"],
+  .check-input,
   select{
     cursor: pointer;
   }
 
 
-  input[type="text"]:hover,
-  input[type="text"]:focus,
-  input[type="number"]:hover,
-  input[type="number"]:focus,
-  input[type="email"]:hover,
-  input[type="email"]:focus,
-  input[type="checkbox"]:hover,
-  input[type="checkbox"]:focus,
-  input[type="radio"]:hover,
-  input[type="radio"]:focus,
+  .text-input:hover,
+  .text-input:focus,
+  .check-input:hover,
+  .check-input:focus,
   select:hover,
   select:focus{
     border: 2px solid $focus;

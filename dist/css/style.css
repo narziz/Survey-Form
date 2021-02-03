@@ -87,35 +87,25 @@ html, body {
   flex-wrap: wrap;
   justify-content: start; }
 
-.survey-form input[type="text"],
-.survey-form input[type="number"],
-.survey-form input[type="email"],
+.survey-form .text-input,
 .survey-form select {
   padding: 1rem 1rem;
   border: 2px solid #EFF1F8;
   border-radius: 0.5rem;
   margin-bottom: 0.5rem; }
 
-.survey-form input[type="checkbox"],
-.survey-form input[type="radio"] {
+.survey-form .check-input {
   height: 1.2rem;
   width: 1.2rem; }
 
-.survey-form input[type="checkbox"],
-.survey-form input[type="radio"],
+.survey-form .check-input,
 .survey-form select {
   cursor: pointer; }
 
-.survey-form input[type="text"]:hover,
-.survey-form input[type="text"]:focus,
-.survey-form input[type="number"]:hover,
-.survey-form input[type="number"]:focus,
-.survey-form input[type="email"]:hover,
-.survey-form input[type="email"]:focus,
-.survey-form input[type="checkbox"]:hover,
-.survey-form input[type="checkbox"]:focus,
-.survey-form input[type="radio"]:hover,
-.survey-form input[type="radio"]:focus,
+.survey-form .text-input:hover,
+.survey-form .text-input:focus,
+.survey-form .check-input:hover,
+.survey-form .check-input:focus,
 .survey-form select:hover,
 .survey-form select:focus {
   border: 2px solid #FD64B3; }

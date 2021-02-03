@@ -28,30 +28,30 @@
                 <!-- page 1 -->
                 <fieldset id="page-1" class="active fieldset">
                   <label class="labels" for="name">Name <span class="required">*</span></label>
-                  <input id="name" type="text" name="name" value="" placeholder="Enter your name">
+                  <input class="text-input" id="name" type="text" name="name" value="" placeholder="Enter your name">
                   <div class="error-msj" id="nameErr"></div>
                   <label class="labels" for="email">Email <span class="required">*</span></label>
-                  <input id="email" type="email" name="email" value="" placeholder="Enter your email">
+                  <input class="text-input" id="email" type="email" name="email" value="" placeholder="Enter your email">
                   <div class="error-msj" id="emailErr"></div>
                 </fieldset>
 
                 <!-- page 2 -->
                 <fieldset id="page-2" class="fieldset">
                   <label class="labels" for="">Age <span class="required">*</span></label>
-                  <input type="number" name="age" value="" min="10" max="60" placeholder="Enter your age">
+                  <input class="text-input" type="number" name="age" value="" min="10" max="60" placeholder="Enter your age">
                   <div class="error-msj" id="ageErr"></div>
                   <label class="labels" for="gender">Gender <span class="required">*</span></label>
                   <div id="gender" class="radio-btn-group">
                     <label class="radio-label" for="male">
-                      <input id="male" type="radio" name="gender" value="Male">
+                      <input class="check-input" id="male" type="radio" name="gender" value="Male">
                       Male
                     </label>
                     <label class="radio-label" for="female">
-                      <input id="female" type="radio" name="gender" value="Female">
+                      <input class="check-input" id="female" type="radio" name="gender" value="Female">
                       Female
                     </label>
                     <label class="radio-label" for="not-say">
-                      <input id="not-say" type="radio" name="gender" value="notSay">
+                      <input class="check-input" id="not-say" type="radio" name="gender" value="notSay">
                       Prefer not to say
                     </label>
                   </div>
@@ -77,15 +77,15 @@
                     <span class="required">*</span></label>
                   <div id="recommend" class="radio-btn-group">
                     <label class="radio-label" for="definitely">
-                      <input id="definitely" type="radio" name="recommend" value="Definitely">
+                      <input class="check-input" id="definitely" type="radio" name="recommend" value="Definitely">
                       Definitely
                     </label>
                     <label class="radio-label" for="maybe">
-                      <input id="maybe" type="radio" name="recommend" value="Maybe">
+                      <input class="check-input" id="maybe" type="radio" name="recommend" value="Maybe">
                       Maybe
                     </label>
                     <label class="radio-label" for="not-sure">
-                      <input id="not-sure" type="radio" name="recommend" value="Not sure">
+                      <input class="check-input" id="not-sure" type="radio" name="recommend" value="Not sure">
                       Not sure
                     </label>
                   </div>
@@ -110,15 +110,15 @@
                   <span class="required">*</span></label>
                   <div id="rating" class="radio-btn-group">
                     <label class="radio-label" for="perfect">
-                      <input id="perfect" type="radio" name="rating" value="perfect">
+                      <input class="check-input" id="perfect" type="radio" name="rating" value="perfect">
                       It's perfect
                     </label>
                     <label class="radio-label" for="lack-of-feature">
-                      <input id="lack-of-feature" type="radio" name="rating" value="lack">
+                      <input class="check-input" id="lack-of-feature" type="radio" name="rating" value="lack">
                       Lack of feature
                     </label>
                     <label class="radio-label" for="error-bugs">
-                      <input id="error-bugs" type="radio" name="rating" value="error">
+                      <input class="check-input" id="error-bugs" type="radio" name="rating" value="error">
                       Errors and bugs
                     </label>
                   </div>
@@ -132,43 +132,43 @@
                    <span class="required">*</span></label>
                   <div id="checkboxGroup" class="checkbox-btn-group">
                     <label class="checkbox-label" for="front-projects">
-                      <input id="front-projects" type="checkbox" name="checkboxGroup[]" value="frontEndProjects">
+                      <input class="check-input" id="front-projects" type="checkbox" name="checkboxGroup[]" value="frontEndProjects">
                       Front-end Projects
                     </label>
                     <label class="checkbox-label" for="back-projects">
-                      <input id="back-projects" type="checkbox" name="checkboxGroup[]" value="backEndProjects">
+                      <input class="check-input" id="back-projects" type="checkbox" name="checkboxGroup[]" value="backEndProjects">
                       Back-end Projects
                     </label>
                     <label class="checkbox-label" for="data-visualization">
-                      <input id="data-visualization" type="checkbox" name="checkboxGroup[]" value="DataVisualization">
+                      <input class="check-input" id="data-visualization" type="checkbox" name="checkboxGroup[]" value="DataVisualization">
                       Data Visualization
                     </label>
                     <label class="checkbox-label" for="challenges">
-                      <input id="challenges" type="checkbox" name="checkboxGroup[]" value="Challenges">
+                      <input class="check-input" id="challenges" type="checkbox" name="checkboxGroup[]" value="Challenges">
                       Challenges
                     </label>
                     <label class="checkbox-label" for="gitter">
-                      <input id="gitter" type="checkbox" name="checkboxGroup[]" value="GitterHelpRooms">
+                      <input class="check-input" id="gitter" type="checkbox" name="checkboxGroup[]" value="GitterHelpRooms">
                       Gitter help rooms
                     </label>
                     <label class="checkbox-label" for="videos">
-                      <input id="videos" type="checkbox" name="checkboxGroup[]" value="Videos">
+                      <input class="check-input" id="videos" type="checkbox" name="checkboxGroup[]" value="Videos">
                       Videos
                     </label>
                     <label class="checkbox-label" for="meetups">
-                      <input id="meetups" type="checkbox" name="checkboxGroup[]" value="CityMeetups">
+                      <input class="check-input" id="meetups" type="checkbox" name="checkboxGroup[]" value="CityMeetups">
                       City Meetups
                     </label>
                     <label class="checkbox-label" for="wiki">
-                      <input id="wiki" type="checkbox" name="checkboxGroup[]" value="Wiki">
+                      <input class="check-input" id="wiki" type="checkbox" name="checkboxGroup[]" value="Wiki">
                       Wiki
                     </label>
                     <label class="checkbox-label" for="forum">
-                      <input id="forum" type="checkbox" name="checkboxGroup[]" value="Forum">
+                      <input class="check-input" id="forum" type="checkbox" name="checkboxGroup[]" value="Forum">
                       Forum
                     </label>
                     <label class="checkbox-label" for="additional">
-                      <input id="additional" type="checkbox" name="checkboxGroup[]" value="AdditionalCourses">
+                      <input class="check-input" id="additional" type="checkbox" name="checkboxGroup[]" value="AdditionalCourses">
                       Additional Courses
                     </label>
                   </div>
