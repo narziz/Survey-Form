@@ -9,8 +9,6 @@ Survey Form created for [freeCodeCamp](freecodecamp.org) challange.
 ## Preview
 To view site [Click Here](https://survey-form.narziz.vercel.app/)
 
----
-
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
@@ -22,7 +20,7 @@ node@v10.16.0 or higher
 npm@6.9.0 or higher
 git@2.17.1 or higher
 ```
----
+
 ## How To Use 🔧
 
 From your command line, first clone Survey-Form:
