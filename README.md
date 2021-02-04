@@ -21,7 +21,7 @@ npm@6.9.0 or higher
 git@2.17.1 or higher
 ```
 
-## How To Use 🔧
+## How To Use
 
 From your command line, first clone Survey-Form:
 
